@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="docker-manager",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Ali AHad",
+    author_email="ali@aliahad.com",
     description="A GUI application for Docker management",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/docker-manager",
+    url="https://github.com/aliahadmd/docker-manager",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[

@@ -4,7 +4,7 @@ Section: utils
 Priority: optional
 Architecture: all
 Depends: python3 (>= 3.6), python3-tk, docker-ce | docker.io
-Maintainer: Your Name <your.email@example.com>
+Maintainer: Ali Ahad <ali@aliahad.com>
 Description: Docker Manager GUI
  A graphical user interface for managing Docker containers
  and images on Linux systems. Provides easy access to common

@@ -1,4 +1,4 @@
-app-id: com.github.yourusername.dockermanager
+app-id: com.github.aliahadmd.dockermanager
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
@@ -19,15 +19,15 @@ modules:
       - pip3 install --prefix=/app .
     sources:
       - type: git
-        url: https://github.com/yourusername/docker-manager.git
+        url: https://github.com/aliahadmd/docker-manager.git
         tag: v1.0.0
     
   - name: docker-manager
     buildsystem: simple
     build-commands:
       - install -Dm755 docker-manager /app/bin/docker-manager
-      - install -Dm644 com.github.yourusername.dockermanager.desktop /app/share/applications/com.github.yourusername.dockermanager.desktop
-      - install -Dm644 docker-manager.svg /app/share/icons/hicolor/scalable/apps/com.github.yourusername.dockermanager.svg
+      - install -Dm644 com.github.aliahadmd.dockermanager.desktop /app/share/applications/com.github.aliahadmd.dockermanager.desktop
+      - install -Dm644 docker-manager.svg /app/share/icons/hicolor/scalable/apps/com.github.aliahadmd.dockermanager.svg
     sources:
       - type: file
         path: src/docker_manager.py
@@ -35,4 +35,4 @@ modules:
       - type: file
         path: src/resources/docker-manager.svg
       - type: file
-        path: flatpak/com.github.yourusername.dockermanager.desktop
+        path: flatpak/com.github.aliahadmd.dockermanager.desktop
