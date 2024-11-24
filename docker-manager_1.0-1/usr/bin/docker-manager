@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 /usr/lib/docker-manager/docker_manager.py

@@ -1,0 +1,11 @@
+Package: docker-manager
+Version: 1.0-1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.6), python3-tk, docker-ce | docker.io
+Maintainer: Your Name <your.email@example.com>
+Description: Docker Manager GUI
+ A graphical user interface for managing Docker containers
+ and images on Linux systems. Provides easy access to common
+ Docker operations through a user-friendly interface.
